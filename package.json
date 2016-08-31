@@ -1,0 +1,33 @@
+{
+  "name": "jays-web-clipper",
+  "version": "0.0.1",
+  "description": "Jay's web-clipper node.js server.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "inline-css": "^2.2.2",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.3",
+    "mocha": "^3.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "web-clipper",
+    "clipper",
+    "archival",
+    "organization",
+    "content-discovery",
+    "tools"
+  ],
+  "author": "Jay Taylor [@jtaylor]",
+  "license": "MIT"
+}
